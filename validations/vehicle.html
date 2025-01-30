@@ -1,0 +1,15 @@
+<html>
+    <head></head>
+    <body>
+        <h3>Get Fine Deatils -Validation:</h3>
+        <form action="/getDetails">
+            <label >Vehicle Number:</label>
+            <!-- <input type="text" required 
+                        pattern="KA-\d{2}-[A-Z]{1,2}-\d{1,4}" /> <br> -->
+            <input type="text" 
+                   required 
+                   pattern="KA[0-9]{2}[A-Z]{2}[0-9]{4}" /> <br>
+            <input type="submit" value="GET">
+        </form>
+    </body>
+</html>

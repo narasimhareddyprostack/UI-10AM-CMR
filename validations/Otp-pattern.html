@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Validations</title>
+    </head>
+    <body>
+        <h3>Login-OTP</h3>
+        <form action="/genOtp">
+            <label >Mobile No:</label>
+            <input type="text" 
+                   required 
+                   placeholder="Buddy! Enter 10 Digit Number" 
+                   pattern="[6-9][0-9]{9}"
+                 /> <br>
+            <input type="submit" value="Gen-OTP">
+        </form>
+    </body>
+</html>
